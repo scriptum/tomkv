@@ -65,7 +65,6 @@ while getopts "b:o:phfqs:t:T:F:" opt; do
 			exit 1
 		;;
 		h)
-			echo "Invalid option: -$OPTARG" >&2
 			usage
 			exit 0
 		;;
